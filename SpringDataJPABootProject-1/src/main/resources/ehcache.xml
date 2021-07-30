@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+	<diskStore path="java.io.tmpdir" />
+
+	<!-- <cache maxElementsInMemory="100" eternal="false" timeToIdleSeconds="5" 
+		timeToLiveSeconds="10" overflowToDisk="true" /> -->
+
+	<defaultCache maxEntriesLocalHeap="100" eternal="false"
+		timeToIdleSeconds="5" timeToLiveSeconds="10" overflowToDisk="true">
+	</defaultCache>
+
+	<!-- <defaultCache maxEntriesLocalHeap="100" eternal="false" timeToIdleSeconds="120" 
+		timeToLiveSeconds="120" diskSpoolBufferSizeMB="1" maxEntriesLocalDisk="10000000" 
+		diskExpiryThreadIntervalSeconds="120" memoryStoreEvictionPolicy="LRU" statistics="true"> 
+		<persistence strategy="localTempSwap" /> </defaultCache> -->
+</ehcache>
